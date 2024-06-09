@@ -1,0 +1,7 @@
+FROM mariadb
+
+
+ENV MYSQL_ROOT_PASSWORD=Passw0rd
+ENV MYSQL_DATABASE=wikidatabase
+
+EXPOSE 3306
